@@ -5,13 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Groot Speak</title>
-    <style src="style.css"></style>
+    <style>
+            textarea{
+                border: 1px solid black;
+                width: 95%;
+                height: 10vh;
+                display: block;
+                margin: 1rem;
+                padding: 1rem;
+            }
+
+            #output{
+                border: 1px solid black;
+                height: 10vh;
+                width: auto;
+                margin: 1rem;
+                padding: 1rem;
+            }
+
+</style>
 </head>
 <body>
     <h1>Groot Translation</h1>
 
-    <textarea id="txt-input" placeholder="Please type in your text here so 
-    that Groot translator can do the magic and convert it to Groot..."></textarea>
+    <textarea id="txt-input" placeholder="Please type in your text here so that Groot translator can do the magic and convert it to Groot..."></textarea>
 
     <button id="btn-translate">Translate</button>
 
